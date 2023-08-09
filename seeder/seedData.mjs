@@ -1,11 +1,11 @@
 const seedData = {
   settings: {
-    name: "Next Life",
+    name: "LOMA EXP",
     currency: { name: "USD", symbol: "$", exchangeRate: 1 },
-    title: "Ecommerce Shopping Platform",
-    address: "1605 Bottom Lane, Tonawanda, New York 14151",
-    email: "info@nextlife.com",
-    shortAddress: "12 Swanson St. New York",
+    title: "Plus Haut, Plus Loin, Plus Vite",
+    address: "Ancien Dalip, Akwa - Douala",
+    email: "info@loma-exp.com",
+    shortAddress: "Ancien Dalip, AKwa - Douala",
     social: {
       facebook: "https://www.facebook.com/next-life",
       instagram: "https://www.instagram.com/next-life",
@@ -13,13 +13,13 @@ const seedData = {
       youtube: "https://www.youtube.com/next-life",
       pinterest: "https://www.pinterest.com/next-life",
     },
-    phoneFooter: "+1 325 268 2584",
-    phoneHeader: "+1 325 268 2584",
-    copyright: "© 2022 - NEXT LIFE™",
+    phoneFooter: "+237 699 699 699",
+    phoneHeader: "+237 699 699 699",
+    copyright: "© 2023 - LOMA EXP™",
     favicon: [
       {
         name: "7942474929yivtyarqcp2949947279bzdrjsspdinext-life.png",
-        url: "https://next-life-s3.s3.ap-southeast-1.amazonaws.com/7942474929yivtyarqcp2949947279bzdrjsspdinext-life.png",
+        url: "https://mastajobs.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-09-at-22.55.17.jpeg",
       },
     ],
     gatewayImage: [
@@ -31,7 +31,7 @@ const seedData = {
     logo: [
       {
         name: "6161511156zmgjotcjmc5176761676ybzsmbfgqjnext-life1.png",
-        url: "https://next-life-s3.s3.ap-southeast-1.amazonaws.com/6161511156zmgjotcjmc5176761676ybzsmbfgqjnext-life1.png",
+        url: "https://mastajobs.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-09-at-22.55.17.jpeg",
       },
     ],
     seo: {
@@ -62,9 +62,9 @@ const seedData = {
       },
     },
     color: {
-      primary: "#4a8bed",
+      primary: "#2e354f",
       primary_hover: "#5bccf6",
-      secondary: "#ff5200",
+      secondary: "#f07e05",
       body_gray: "#efefef",
       body_gray_contrast: "#333333",
       primary_contrast: "#ffffff",
@@ -84,7 +84,7 @@ const seedData = {
       facebookPixelId: "",
       messengerPageId: "",
     },
-    description: "Lorem ipsum dolor sit amet conse ela di mos.",
+    description: "Plus Haut, Plus Loin, Plus Vite",
   },
   product: [
     {

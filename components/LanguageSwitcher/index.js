@@ -12,8 +12,8 @@ export default function LanguageSwitcher() {
   const defaultLanguage = settings.settingsData.language;
   const lists = [
     { name: "English", id: "en", flag: "/images/flags/us.svg" },
-    { name: "বাংলা", id: "bn", flag: "/images/flags/bd.svg" },
-    { name: "العربية", id: "ar", flag: "/images/flags/ar.svg" },
+    // { name: "বাংলা", id: "bn", flag: "/images/flags/bd.svg" },
+    // { name: "العربية", id: "ar", flag: "/images/flags/ar.svg" },
     { name: "Français", id: "fr", flag: "/images/flags/fr.svg" },
   ];
   useSyncLanguage(lists[lang]?.id);
