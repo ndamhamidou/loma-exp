@@ -18,8 +18,8 @@ const navItem = [
   },
   {
     id: 3,
-    name: "All Categories",
-    to: "/categories",
+    name: "Deliveries",
+    to: "/deliveries",
   },
   {
     id: 4,
@@ -48,13 +48,7 @@ export default function Sidebar({ show, toggle }) {
       </div>
       <div className={c.sidebar_link}>
         <ul className={c.sidebar_ul}>
-          {navItem.map((item, index) => (
-            <li className={c.sidebar_list} key={index}>
-              <div className={c.sidebar_item}>
-                <Link href={item.to}>{item.name}</Link>
-              </div>
-            </li>
-          ))}
+          
           {!session && (
             <>
               <li className={c.sidebar_list}>

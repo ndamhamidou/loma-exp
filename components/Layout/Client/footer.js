@@ -110,7 +110,7 @@ const Footer = (props) => {
                       <ImageLoader
                         src={settings.settingsData.logo[0]?.url}
                         width={145}
-                        height={45}
+                        height={145}
                         alt={settings.settingsData.name}
                       />
                     )}

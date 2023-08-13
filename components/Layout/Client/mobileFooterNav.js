@@ -35,9 +35,9 @@ export default function FooterMobile() {
           </Link>
         </li>
         <li>
-          <Link href="/gallery">
+          <Link href="/deliveries">
             <Basket width={20} height={20} />
-            <span>{t("shop")}</span>
+            <span>{t("deliveries")}</span>
           </Link>
         </li>
         <li>

@@ -75,8 +75,8 @@ const NavBar = () => {
     },
     {
       id: 3,
-      name: t("all_categories"),
-      to: "/categories",
+      name: t("deliveries"),
+      to: "/deliveries",
     },
     {
       id: 4,
@@ -160,7 +160,7 @@ const NavBar = () => {
                   <ImageLoader
                     src={std.logo[0]?.url}
                     width={155}
-                    height={44}
+                    height={155}
                     alt={std.name}
                   />
                 )}

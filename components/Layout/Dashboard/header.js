@@ -28,7 +28,7 @@ const DashboardHeader = (props) => {
               <ImageLoader
                 src={settings.settingsData.logo[0]?.url}
                 width={140}
-                height={40}
+                height={140}
                 alt={settings.settingsData.name}
               />
             )}

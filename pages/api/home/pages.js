@@ -21,6 +21,11 @@ export default async function apiHandler(req, res) {
             res.status(200).json({ success: true, page: aboutData, settings });
             break;
 
+          case "deliveries":
+            const deliveriesData = pageData.deliveriesPage;
+            res.status(200).json({ success: true, page: deliveriesData, settings});
+            break;
+
           case "privacy":
             const privacyData = pageData.privacyPage;
             res
